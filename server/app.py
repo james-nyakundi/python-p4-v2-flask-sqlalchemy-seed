@@ -1,5 +1,8 @@
 # server/app.py
+from faker import Faker
 
+# Create a Faker instance
+fake = Faker()
 from flask import Flask
 from flask_migrate import Migrate
 
